@@ -148,7 +148,7 @@ configurations.all {
     force 'org.springframework:spring-tx:5.1.18.RELEASE'
     force 'org.springframework:spring-web:5.1.18.RELEASE'
     force 'org.springframework:spring-webmvc:5.1.18.RELEASE'
-    force 'org.apache.logging.log4j:log4j-slf4j-impl:2.16.0'
+    force 'org.apache.logging.log4j:log4j-slf4j-impl:2.17.2'
   }
   exclude group: 'log4j', module: 'log4j'
   exclude group: 'org.codehaus.jackson', module: 'jackson-mapper-asl'
